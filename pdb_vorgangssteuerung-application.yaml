@@ -6,6 +6,9 @@ environments:
       - namespace: e1
         path: ./helm/vorgangssteuerung
         branch: AVDC-1637
+      - namespace: e2
+        path: ./helm/vorgangssteuerung
+        branch: AVDC-1637
   test:
     namespaces:
       t1:
