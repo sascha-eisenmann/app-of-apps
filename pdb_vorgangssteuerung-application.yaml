@@ -1,0 +1,14 @@
+applicationName: vorgangssteuerung
+repoURL: https://github.com/cloudIT4IPM/pdb_vorgangssteuerung.git
+environments:
+  dev:
+    namespaces:
+      - namespace: e1
+        path: ./helm/vorgangssteuerung
+        branch: AVDC-1637
+  test:
+    namespaces:
+      t1:
+        branch: develop
+      t2:
+        branch: develop
